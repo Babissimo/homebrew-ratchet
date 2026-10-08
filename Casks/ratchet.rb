@@ -3,8 +3,7 @@ cask "ratchet" do
   version "1.0.0"
   sha256 "c0a183d64840ad1aaccb9e98f26d3cf55e825f1900a7b3483ef0d57d44ab9ed3"
 
-  url "https://github.com/Babissimo/ratchet/releases/download/v#{version}/Ratchet.app.zip",
-      verified: "github.com/Babissimo/ratchet/"
+  url "https://github.com/Babissimo/ratchet/releases/download/v#{version}/Ratchet.app.zip"
   name "Ratchet"
   desc "Menu-bar time tracker for FreeAgent"
   homepage "https://ratchet.babissimo.net/"
